@@ -25,3 +25,11 @@ class SmartInput():
                 return n
             except:
                 print("error, try again")
+
+
+
+if __name__ == "__main__":  #if this file is run, it is called '__main__' regardless of filename
+    print ("hello")
+
+if __name__ == "inputapi":  #if run as imported, called like this.
+    print ("api")
